@@ -1,0 +1,114 @@
+
+/*basic boilerplate styles*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*css variables and fonts*/
+
+:root {
+    --purple: #7C19EE;
+    --cream: #F2EAFD;
+    --light-grey: #E5EAF0;
+    --off-white: #FAFAF9;
+    --white: #FFFFFF;
+    --off-black: #20293A;
+    --dark-grey: #394150;
+    --dark-pink: #FF1493;
+}
+
+.sora {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*project styles start here*/
+
+body {
+    font-family: "Sora";
+    font-size: 0.875rem;
+    background-color: var(--white);
+}
+
+.blog-card {
+    max-width: 25rem;
+    margin: 10.25rem auto;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    border-radius: 0.625rem;
+    box-shadow: 0.5rem 0.5rem 1.25rem 0 rgba(85, 85, 85, 0.08);
+}
+
+.cactus-img {
+    max-width: 100%;
+    margin: 1rem;
+    border-radius: 0.3125rem;
+}
+
+.design-text {
+    max-width: 4.375rem;
+    margin-bottom: 0.75rem;
+    margin-left: 1rem;
+    padding: 0.375rem 1rem;
+    font-size:  0.625rem;
+    font-weight: bold;
+    color: var(--purple);
+    text-decoration: none;
+    background-color: var(--off-white);
+    border-radius: 0.9375rem;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0.375rem;
+    margin-left: 1rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--off-black);
+}
+
+p {
+    max-width: 19.0625rem;
+    margin: 0;
+    margin-bottom: 1.25rem;
+    margin-left: 1rem;
+    line-height: 1.5;
+    font-weight: 300;
+    color: var(--dark-grey);
+}
+
+.line {
+    max-width: 25rem;
+    margin: 0;
+    margin-bottom: 1.25rem;
+    border: 1px solid var(--cream);
+}
+
+.author-name {
+    margin-bottom: 1rem;
+    font-size:  0.75rem;
+    font-weight: 400;
+    
+}
+
+.author-info {
+    text-align: center;
+}
+
+#name-text {
+    color: var(--dark-pink);
+}
+
+
+
+
+
